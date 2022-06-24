@@ -18,5 +18,10 @@ public class Main {
         p3.name="sugar";
         p3.price=200;
         p3.color="pink";
+        
+        //aici adaugi tu produsele de acum, nu le mai adaugi in lista de mai sus, ca ele trebuie adaugate intr-o lista a unui cart
+        
+        Cart c = new Cart();
+        c.add(p1);
     }
 }
