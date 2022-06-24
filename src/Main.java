@@ -22,6 +22,6 @@ public class Main {
         //aici adaugi tu produsele de acum, nu le mai adaugi in lista de mai sus, ca ele trebuie adaugate intr-o lista a unui cart
         
         Cart c = new Cart();
-        c.add(p1);
+        c.addProduct(p1);
     }
 }
